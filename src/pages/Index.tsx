@@ -134,6 +134,71 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-16 md:py-24 bg-gradient-to-br from-primary/5 to-secondary/5">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
+            Почему искусственные ёлки?
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <Card className="text-center hover:shadow-xl transition-all hover:-translate-y-1">
+              <CardHeader>
+                <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Sparkles" size={32} className="text-secondary" />
+                </div>
+                <CardTitle className="text-lg">Служит годами</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground text-sm">
+                  Одна покупка на 5-10 лет использования
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center hover:shadow-xl transition-all hover:-translate-y-1">
+              <CardHeader>
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Leaf" size={32} className="text-primary" />
+                </div>
+                <CardTitle className="text-lg">Не осыпается</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground text-sm">
+                  Никаких иголок на полу весь праздник
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center hover:shadow-xl transition-all hover:-translate-y-1">
+              <CardHeader>
+                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Wallet" size={32} className="text-accent-foreground" />
+                </div>
+                <CardTitle className="text-lg">Экономия</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground text-sm">
+                  Окупается за 2-3 года по сравнению с живой
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center hover:shadow-xl transition-all hover:-translate-y-1">
+              <CardHeader>
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Package" size={32} className="text-primary" />
+                </div>
+                <CardTitle className="text-lg">Компактное хранение</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground text-sm">
+                  Легко разобрать и убрать до следующего года
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="delivery" className="py-16 md:py-24 bg-green-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
