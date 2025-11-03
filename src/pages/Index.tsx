@@ -5,27 +5,27 @@ import Icon from "@/components/ui/icon";
 const trees = [
   {
     id: 1,
-    name: "Сосна обыкновенная",
+    name: "Искусственная ель классическая",
     height: "1.5-2 м",
-    price: "2 500 ₽",
+    price: "3 500 ₽",
     image: "https://cdn.poehali.dev/projects/b55356ac-8bf6-460a-834d-01b281083e6f/files/536814ce-97f7-4b25-8451-abea5b68ebfe.jpg",
-    description: "Классическая сосна с пушистыми ветками"
+    description: "Пушистая ель с металлической подставкой"
   },
   {
     id: 2,
-    name: "Ель европейская",
+    name: "Искусственная сосна премиум",
     height: "1.8-2.2 м",
-    price: "3 200 ₽",
+    price: "4 800 ₽",
     image: "https://cdn.poehali.dev/projects/b55356ac-8bf6-460a-834d-01b281083e6f/files/86afc7b2-4678-44ed-93c0-2167c15d5830.jpg",
-    description: "Ароматная ель с густой хвоей"
+    description: "Реалистичная хвоя, легкая сборка"
   },
   {
     id: 3,
-    name: "Пихта нордмана",
+    name: "Искусственная ель люкс",
     height: "2-2.5 м",
-    price: "4 500 ₽",
+    price: "6 900 ₽",
     image: "https://cdn.poehali.dev/projects/b55356ac-8bf6-460a-834d-01b281083e6f/files/9dc1c58f-a591-49ff-ae87-e4560be29120.jpg",
-    description: "Премиум-пихта, не осыпается долго"
+    description: "Густая хвоя премиум-качества, не осыпается"
   }
 ];
 
@@ -58,10 +58,10 @@ const Index = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center animate-fade-in">
             <h2 className="text-4xl md:text-6xl font-bold text-primary mb-6">
-              Живые новогодние ёлки
+              Искусственные новогодние ёлки
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Доставим праздник прямо к вашему дому! Свежие ёлки и пихты от 2500₽
+              Создадим праздник на долгие годы! Качественные искусственные ёлки от 3500₽
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
